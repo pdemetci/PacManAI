@@ -16,9 +16,9 @@ For the game itself, we used the code provided in [UC Berkeley's CS188 Intro to 
 Visit our posts for more information:
 [What is Q-learning?]({http://pdemetci.github.io/PacManAI/jekyll/update/What-Is-Q-Learning/})
 [Our implementation of Q-learning]({})
-[Results]({})
+[Results]({jekyll/update/Results/})
 Course Deliverables:
-[Project Proposal]({})
+[Project Proposal]({2015-05-05-Project-Proposal})
 [Design Review]({})
 [Design Review Reflection]({})
 [Technical Review Reflection]({})
