@@ -1,11 +1,16 @@
 ---
 layout: page
-title: About
 permalink: /about/
+title: About Me
+tags: [about]
+image:
+  feature: main3.jpg
+share: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hello!
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+We are a team from Olin College of Engineering.
+For our Software Design Sp2015 course, we implemented PacMan Q-learning. Check it out!
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Stephanie Northway, Kelly Brenan, Pinar Demetci 
