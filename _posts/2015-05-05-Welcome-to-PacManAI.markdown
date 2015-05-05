@@ -27,4 +27,4 @@ Course Deliverables:
 
 
 Just testing image
-![This PacMan image](/images/pacman.png)
+![This PacMan image]({/images/pacman.png})
