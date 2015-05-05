@@ -9,8 +9,7 @@ url:              http://pdemetci.github.io/PacManAI
 # Owner/author information
 owner:
   name:           Pinar Demetci, Stephanie Northway, Kelly Brennan
-  email:          pinardemetci@gmail.com
-  github:         pdemetci
+  github:         pdemetci/PacManAI
  
 
 # Background image to be tiled on all pages
