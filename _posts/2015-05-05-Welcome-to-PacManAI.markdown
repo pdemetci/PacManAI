@@ -6,6 +6,7 @@ categories: jekyll update
 ---
 
 Has been updated2!
+
 We are Stephanie Northway, Kelly Brennan and Pinar Demetci. This is our course project for Software Design course at Olin College of Engineering.
  We have used machine learning for the computer to strategize and learn to win the PacMan game. 
 
