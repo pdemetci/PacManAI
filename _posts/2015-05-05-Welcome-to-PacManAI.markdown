@@ -11,7 +11,12 @@ We are Stephanie Northway, Kelly Brennan and Pinar Demetci. This is our course p
 
 Our learning goals were mostly related to learning machine learning and artificial intelligence algorithms. Therefore, we decided to focus on implementing algorithms instead of creating the game environment. 
 
-For the game itself, we used the code provided in link: http://ai.berkeley.edu/project_instructions.html UC Berkeley's CS188 Intro to AI code
+For the game itself, we used the code provided in [UC Berkeley's CS188 Intro to AI code]({http://ai.berkeley.edu/project_instructions.html})
+
+Visit our posts for more information:
+What is Q-learning?
+Our implementation of Q-learning
+
 
 
 
