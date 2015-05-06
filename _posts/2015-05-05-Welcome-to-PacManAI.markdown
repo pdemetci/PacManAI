@@ -48,3 +48,6 @@ Course Deliverables:
 - [Design Review Reflection](http://pdemetci.github.io/PacManAI/jekyll/update/Design-Review-Reflection/)
 - [Technical Review](http://pdemetci.github.io/PacManAI/jekyll/update/Technical-Review/)
 - [Technical Review Reflection](http://pdemetci.github.io/PacManAI/jekyll/update/Technical-Review-Reflection/)
+
+image:
+![image] (/assets/pacman.jpg)
