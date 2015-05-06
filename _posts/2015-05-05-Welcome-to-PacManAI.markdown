@@ -54,5 +54,5 @@ Course Deliverables:
 Just testing image:
 <figure>
 	<a href="http://postimg.org/image/pxjf056a3/"><img src="http://postimg.org/image/pxjf056a3/" alt=""></a>
-	<figcaption><a href="http://postimg.org/image/pxjf056a3/" title="PacMan2!">PacMan2!</a>.</figcaption>
+	<figcaption><a href="http://postimg.org/image/pxjf056a3/" title="PacMan3!">PacMan3!</a>.</figcaption>
 </figure>
