@@ -9,7 +9,7 @@ On a large board, PacMan esentially operates in a continuous state space. In suc
 
       ![Q Function Approximation]({{ site.url }}/assets/approximateQ.png){: .center-image }
 
-Learning happens when agent updates the weights of the features based on its experience and learns which feature to prioritize. This makes the approximated Q value converge to the real Q value.
+Learning happens when the agent updates the weights associated with each feature after every move and learns which features to prioritize. This makes the approximated Q value converge to the real Q value.
 
 ![Weight Update Function]({{ site.url }}/assets/weightupdates.png){: .center-image }
 
@@ -24,5 +24,5 @@ Our code architecture is explained in the diagram below. The classes we have imp
 
 ![Code Architecture]({{ site.url }}/assets/UMLDigram_Pacman_withoutAttributesMethods.png)
 
-For further information on Q learning in continuous spaces, you can download and check Hado van Hasselt's paper on [Reinforcement Learning in Continuous State and Action Spaces](http://webdocs.cs.ualberta.ca/~vanhasse/papers/RL_in_Continuous_Spaces.pdf) 
+For further information on reinforcement learning in continuous spaces, you can download and check Hado van Hasselt's paper on [Reinforcement Learning in Continuous State and Action Spaces](http://webdocs.cs.ualberta.ca/~vanhasse/papers/RL_in_Continuous_Spaces.pdf) 
 
