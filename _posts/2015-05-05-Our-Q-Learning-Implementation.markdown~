@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Our Q Learning Implementation"
+title:  "Continuous State Q Learning"
 date:   2015-05-05 05:30:00
 categories: jekyll update
 ---
@@ -13,7 +13,8 @@ Learning happens when the agent updates the weights associated with each feature
 
 ![Weight Update Function]({{ site.url }}/assets/weightupdates.png){: .center-image }
 
-The features we have included are: 
+The features we have included are:
+ 
 - Nearest capsule distance
 - Food pellet distance
 - Nearest ghost distance
