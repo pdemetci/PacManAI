@@ -7,7 +7,7 @@ categories: jekyll update
 
 On a large board, PacMan esentially operates in a continuous state space. In such a space, implementing Q values in a matrix is not viable. To address this, we have abstracted states to linear combinations of features instead of PacMan's coordinates on the board.
 
-![Q Function Approximation]({{ site.url }}/assets/QFunctionApproximation2.png){: .center-image }
+      ![Q Function Approximation]({{ site.url }}/assets/QFunctionApproximation2.png){: .center-image }
 
 Learning happens when agent updates the weights of the features based on its experience and learns which feature to prioritize. This makes the approximated Q value converge to the real Q value.
 

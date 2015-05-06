@@ -11,7 +11,7 @@ categories: jekyll update
 
 For Pacman, the actions are simple: **North, South, East, West, or Stop**. The rewards are also simple: **food is +10, ghosts are -500 or +200, depending, and a win is +500**. The states, however, get tricky. On a large board, Pacman is essentially operating in a continuous state space. We abstracted states to mean linear combinations of features instead of Pacman’s coordinates on the board.
 
-![PacMan Action Options]({{ site.url }}/assets/PacmanOptions_website.png)
+![PacMan Action Options]({{ site.url }}/assets/pacmandirections.png)
 
 The picture above shows the action space, which consists of five actions: North, South, East, West, and Stop.
 

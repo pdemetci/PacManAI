@@ -21,5 +21,5 @@ The picture above shows the action space, which consists of five actions: North,
 
 The example below is from [UC Berkeley's CS188 course](https://inst.eecs.berkeley.edu/~cs188/fa09/projects/reinforcement/reinforcement.html) The first image has the initial Q matrix whereas the second Q matrix is the updated one as the agent learns about the environment. Note that the closer the state is to the reward, the higher its Q value is since Q value takes into account the expected future reward. 
 
-![Initial Q values]({{ site.url }}/assets/QValues_initial.png)
-![Final Q values]({{ site.url }}/assets/QValues_final.png)
+![Initial Q values]({{ site.url }}/assets/initial_Q_values.png)
+![Final Q values]({{ site.url }}/assets/final_Q_values.png)
