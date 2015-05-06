@@ -50,4 +50,4 @@ Course Deliverables:
 - [Technical Review Reflection](http://pdemetci.github.io/PacManAI/jekyll/update/Technical-Review-Reflection/)
 
 image:
-![image] (/assets/pacman.jpg)
+![PacManimage]({{ site.url }}/assets/pacman.jpg)
