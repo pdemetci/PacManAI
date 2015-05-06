@@ -8,8 +8,6 @@ categories: jekyll update
 
 Here is a game where the learning agent PacMan strategizes and wins the game through our implementation of Q learning:
 
-<object width="475" height="297"><param value="http://www.youtube.com/v/&showsearch=0&rel=0&fs=1&autoplay=0&amp;ap=%2526fmt%3D22" name="movie" /><param value="window" name="wmode" /><param value="true" name="allowFullScreen" /><embed width="475" height="297" wmode="window" allowfullscreen="true" type="application/x-shockwave-flash" src="http://www.youtube.com/v/&showsearch=0&fs=1&rel=0&autoplay=0&amp;ap=%2526fmt%3D22"></embed></object><br /><a href="http://www.youtube.com/watch?v=&fmt=22" target="_blank">View on YouTube</a>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/ITEU9CgJ9qw" frameborder="0" allowfullscreen> </iframe>
 
-<iframe width="560" height="315" src="//www.youtube.com/watch?v=ITEU9CgJ9qw&feature=youtu.be" frameborder="0"> </iframe>
-
-Updated2.
+Updated3.
