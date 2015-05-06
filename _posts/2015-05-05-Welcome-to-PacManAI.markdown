@@ -51,8 +51,10 @@ Course Deliverables:
 
 
 
-Just testing image:
+Just testing image
+
 Updated
+
 ![PacMan](/images/pacman.png)
 
 <figure>
