@@ -10,7 +10,8 @@ categories: jekyll update
 3. We determined to use Q-learning because it seemed to be the most common type of reinforcement learning. We started off with the simplified version on the [Painless Q-Learning Tutorial](http://mnemstudio.org/path-finding-q-learning-tutorial.htm) site. The two diagrams below summarize it. The map contains multiple rooms and the goal is to reach outside. The matrix contains the Q values for each state-action pair based on whether it leads to goal or not. 
 
 ![Painless Q Learning Map]({{ site.url }}/assets/PainlessQlearningMap.png)
-//
+
+
 ![Painless Q Learning Matrix]({{ site.url }}/assets/PainlessQlearningMatrix.png)
 
 4. We tried to apply what we had learned from that tutorial to Pacman, but realized that with any normal layout we would have an absurd number of states to keep track of. To address this problem, we tried to think of ways to make fewer states.

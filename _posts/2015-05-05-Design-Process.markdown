@@ -5,7 +5,7 @@ date:   2015-05-05 05:00:00
 categories: jekyll update
 ---
 
-1. We began our project by developing our project goals and abstracting the system
+1. We began our project by developing our project goals and abstracting the system.
 2. We decided on a type of AI algorithm to apply. Based on our research and our instructors, Paul Ruvolo, suggestion, we decided to learn about reinforcement learning.
 3. We determined to use Q-learning because it seemed to be the most common type of reinforcement learning. We started off with the simplified version on the [Painless Q-Learning Tutorial](http://mnemstudio.org/path-finding-q-learning-tutorial.htm) site. The two diagrams below summarize it. The map contains multiple rooms and the goal is to reach outside. The matrix contains the Q values for each state-action pair based on whether it leads to goal or not. 
 
