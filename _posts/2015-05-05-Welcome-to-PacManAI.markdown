@@ -32,7 +32,7 @@ you can also run
 	
 to see more options.
 
-Download [our poster here]() directly. 
+Download [our poster here](http://freepdfhosting.com/a49a27e38f.pdf) directly. 
 
 Visit our posts for more information:
 
