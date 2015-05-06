@@ -53,6 +53,6 @@ Course Deliverables:
 
 Just testing image:
 <figure>
-	<a href="/images/pacman.png"><img src="/images/pacman.png" alt=""></a>
+	<a href="http://postimg.org/image/pxjf056a3/"><img src="http://postimg.org/image/pxjf056a3/" alt=""></a>
 	<figcaption><a href="/images/pacman.png" title="PacMan!">PacMan!</a>.</figcaption>
 </figure>
