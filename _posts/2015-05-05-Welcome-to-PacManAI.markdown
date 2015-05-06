@@ -10,7 +10,7 @@ We are Stephanie Northway, Kelly Brennan and Pinar Demetci from Olin College of 
 
 We created an artificial intelligence agent that learns from experience to play (and win!) games of PacMan. The type of machine learning algorithm we used is reinforcement learning, more specifically: Q learning.
 
-Our learning goals were mostly related to learning machine learning and artificial intelligence algorithms. Therefore, we decided to focus on implementing algorithms instead of creating the game environment. 
+The project objective was to learn about machine learning and develop AI algorithms. Therefore, we decided to focus on implementing algorithms instead of creating the game environment. 
 
 For the game itself, we used the code provided in [UC Berkeley's CS188 Intro to AI code](http://ai.berkeley.edu/project_instructions.html) and implemented our algorithms on that.[Our GitHub repository](https://github.com/pdemetci/PacMan-AI) includes both [Berkeley's code](https://github.com/pdemetci/PacMan-AI/tree/master/berkeley-search) and [our code](https://github.com/pdemetci/PacMan-AI/tree/master/PacMan1) in separate files. 
 

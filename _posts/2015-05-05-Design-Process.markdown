@@ -8,7 +8,7 @@ categories: jekyll update
 - Abstracted the problem and developed project goals
 - Decided on a type of algorithm to apply. Based on course instructor Paul Ruvolo’s suggestion and on research we did, we decided on reinforcement learning.
 - Learned about reinforcement learning. We narrowed down to Q-learning because it seemed to be the most common type of reinforcement learning. We started off with the simplified version on the “Painless Q-Learning Tutorial” site.
-- We tried to apply what we had learned from that tutorial to Pacman, but realized that with any normal layout we would have a pretty absurd number of states to keep track of. So we tried to think of ways to make fewer states. [List of those]
+- We tried to apply what we had learned from that tutorial to Pacman, but realized that with any normal layout we would have a pretty absurd number of states to keep track of. So we tried to think of ways to make fewer states.
 - We took our ideas to our first design review, where Paul encouraged us to look at states as linear combinations of features. That way, we could replace the gigantic Q matrix with a Q function, and the weights associated with the features would guide the action selection policy.
 - We built a simple agent class to test out the concept of exploration rate. It wasn’t very effective.
 - We read “Reinforcement Learning in Continuous State and Action Spaces,” and spent a long time trying to understand the math.
