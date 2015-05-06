@@ -40,6 +40,8 @@ Visit our posts for more information:
 - [Our implementation of Q-learning](http://pdemetci.github.io/PacManAI/jekyll/update/Our-Q-Learning-Implementation/)
 - [Design Process](http://pdemetci.github.io/PacManAI/jekyll/update/Design-Process/)
 - [Results](http://pdemetci.github.io/PacManAI/jekyll/update/Results/)
+- [References](http://pdemetci.github.io/PacManAI/jekyll/update/References/)
+- [Documentation](http://pdemetci.github.io/PacManAI/jekyll/update/Documentation/)
 
 Course Deliverables:
 
