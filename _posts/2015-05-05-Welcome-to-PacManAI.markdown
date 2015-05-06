@@ -16,12 +16,13 @@ For the game itself, we used the code provided in [UC Berkeley's CS188 Intro to 
 
 #User Instructions/README:
 	$ git clone https://github.com/pdemetci/PacMan-AI.git
-$ cd PacMan-AI/PacMan1
-$ ~/PacMan-AI/PacMan1/python pacman.py --pacman SimpleQPacMan
+	$ cd PacMan-AI/PacMan1
+	$ ~/PacMan-AI/PacMan1/python pacman.py --pacman SimpleQPacMan
 
 you can also run 
 	
 	$ python pacman.py --help
+	
 
 to see more options. 
 
