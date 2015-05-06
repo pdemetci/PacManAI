@@ -24,8 +24,5 @@ Our code architecture is explained in the diagram below. The classes we have imp
 
 ![Code Architecture]({{ site.url }}/assets/UMLDigram_Pacman_withoutAttributesMethods.png)
 
-<img style="float: right" src="/assets/UMLDigram_Pacman_withoutAttributesMethods.png">
-<img style="float: right" src="{{ site.url }}/assets/UMLDigram_Pacman_withoutAttributesMethods.png">
-
 For further information on reinforcement learning in continuous spaces, you can download and check Hado van Hasselt's paper on [Reinforcement Learning in Continuous State and Action Spaces](http://webdocs.cs.ualberta.ca/~vanhasse/papers/RL_in_Continuous_Spaces.pdf) 
 
