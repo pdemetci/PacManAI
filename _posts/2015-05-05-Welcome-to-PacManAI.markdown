@@ -38,6 +38,7 @@ Visit our posts for more information:
 
 - [What is Reinforcement Learning?](http://pdemetci.github.io/PacManAI/jekyll/update/What-Is-Reinforcement-Learning/)
 - [Our implementation of Q-learning](http://pdemetci.github.io/PacManAI/jekyll/update/Our-Q-Learning-Implementation/)
+- [Design Process](http://pdemetci.github.io/PacManAI/jekyll/update/Design-Process/)
 - [Results](http://pdemetci.github.io/PacManAI/jekyll/update/Results/)
 
 Course Deliverables:
@@ -47,31 +48,3 @@ Course Deliverables:
 - [Design Review Reflection](http://pdemetci.github.io/PacManAI/jekyll/update/Design-Review-Reflection/)
 - [Technical Review](http://pdemetci.github.io/PacManAI/jekyll/update/Technical-Review/)
 - [Technical Review Reflection](http://pdemetci.github.io/PacManAI/jekyll/update/Technical-Review-Reflection/)
-
-
-
-
-Just testing image
-
-Updated:
-
-
-![PacMan3](/assets/pacman.jpg)
-
-<figure>
-	<img src="http://postimg.org/image/pxjf056a3/">
-	<figcaption>PacMan3!</figcaption>
-</figure>
-
-Another image:
-<figure>
-	<a href="/assets/images/pacman.png/"><img src="/assets/images/pacman.png/" alt=""></a>
-	<figcaption><a href="/assets/images/pacman.png/" title="PacMan3!">PacMan3!</a>.</figcaption>
-</figure>
-
-
-Another image:
-<figure>
-	<a href="/assets/images/pacman.png"><img src="/assets/images/pacman.png" alt=""></a>
-	<figcaption><a href="/assets/images/pacman.png" title="PacMan3!">PacMan3!</a>.</figcaption>
-</figure>
