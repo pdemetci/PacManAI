@@ -1,7 +1,11 @@
 ---
 layout: post
 title:  "Results"
-date:   2015-05-05 05:03:00
+date:   2015-05-05 04:03:00
 categories: jekyll update
 ---
-blah blah.
+
+
+Here is a game where the learning agent PacMan strategizes and wins the game through our implementation of Q learning:
+
+

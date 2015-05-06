@@ -4,4 +4,8 @@ title:  "Results"
 date:   2015-05-05 04:03:00
 categories: jekyll update
 ---
-blah blah.
+
+
+Here is a game where the learning agent PacMan strategizes and wins the game through our implementation of Q learning:
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>

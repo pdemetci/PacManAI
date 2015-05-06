@@ -12,11 +12,11 @@ We created an artificial intelligence agent that learns from experience to play 
 
 Our learning goals were mostly related to learning machine learning and artificial intelligence algorithms. Therefore, we decided to focus on implementing algorithms instead of creating the game environment. 
 
-For the game itself, we used the code provided in [UC Berkeley's CS188 Intro to AI code](http://ai.berkeley.edu/project_instructions.html)
+For the game itself, we used the code provided in [UC Berkeley's CS188 Intro to AI code](http://ai.berkeley.edu/project_instructions.html) and implemented our algorithms on that.[Our GitHub repository](https://github.com/pdemetci/PacMan-AI) includes both [Berkeley's code](https://github.com/pdemetci/PacMan-AI/tree/master/berkeley-search) and [our code](https://github.com/pdemetci/PacMan-AI/tree/master/PacMan1) in separate files. 
 
 #User Instructions/README:
 
-{% highlight ruby %}
+{% highlight %}
 $ git clone https://github.com/pdemetci/PacMan-AI.git
 $ cd PacMan-AI/PacMan1
 $ ~/PacMan-AI/PacMan1/python pacman.py --pacman SimpleQPacMan
@@ -25,7 +25,7 @@ $ ~/PacMan-AI/PacMan1/python pacman.py --pacman SimpleQPacMan
 	
 you can also run 
 
-{% highlight ruby %}
+{% highlight %}
 	$ python pacman.py --help
 	
 {% endhighlight %}
@@ -54,5 +54,5 @@ Course Deliverables:
 Just testing image:
 <figure>
 	<a href="http://postimg.org/image/pxjf056a3/"><img src="http://postimg.org/image/pxjf056a3/" alt=""></a>
-	<figcaption><a href="/images/pacman.png" title="PacMan!">PacMan!</a>.</figcaption>
+	<figcaption><a href="/images/pacman.png" title="PacMan!">PacMan2!</a>.</figcaption>
 </figure>
