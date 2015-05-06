@@ -26,7 +26,7 @@ Our audience suggested that we have a Q function instead of a Q matrix because, 
 
 In order to learn, pacman must share knowledge across very similar states. The states and action must be stored in some what (TBD - see below). The R matrix could be a function a specific state. For example it would include whether pacman ate a capsule.
 
- In teams of implementing AI, we have been thinking about pacman’s actions at the single step level and we like the suggestion to think more about pacman’s actions at a high level. This would involve building pacman’s actions as block strategies (“Go towards the pellet in the upper lefthand corner”. “Go away from ghost”). For example, one of the strategies may involve using astar for pacman to find a path to the desired location.The block strategy would be continuously updated in pacman’s long-term plan.
+In teams of implementing AI, we have been thinking about pacman’s actions at the single step level and we like the suggestion to think more about pacman’s actions at a high level. This would involve building pacman’s actions as block strategies (“Go towards the pellet in the upper lefthand corner”. “Go away from ghost”). For example, one of the strategies may involve using astar for pacman to find a path to the desired location.The block strategy would be continuously updated in pacman’s long-term plan.
 
 Since we are using pacman code from a Berkeley CS class, a student pointed out that it will be important for us to consider how the students in the Berkeley CS class address the same problem. While we want to be careful about not “cheating”, we think this may be a good idea to answer some of our high-level questions. 
 
