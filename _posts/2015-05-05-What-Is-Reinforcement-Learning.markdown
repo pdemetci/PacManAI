@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is Reinforcement Learning?"
-date:   2015-05-05 05:00:00
+date:   2015-05-05 05:45:00
 categories: jekyll update
 ---
 
@@ -15,11 +15,9 @@ EXPLORATION VIDEO
 
 For Pacman, the actions are simple: **North, South, East, West, or Stop**. The rewards are also simple: **food is +10, ghosts are -500 or +200, depending, and a win is +500**. The states, however, get tricky. On a large board, Pacman is essentially operating in a continuous state space (actually it's just a very large discrete state space, but for practical purposes they're the same thing). We abstracted states to mean linear combinations of hand-picked features (like the current distance to the nearest ghost or food pellet) instead of Pacman’s coordinates on the board.
 
-#![PacMan Action Options]({{ site.url }}/assets/pacmandirections.png)
+<img style="float: left" src="{{ site.url }}/assets/pacmandirections.png">
 
-<img style="float: right" src="{{ site.url }}/assets/pacmandirections.png">
-
-The picture above shows the action space, which consists of five actions: North, South, East, West, and Stop.
+The picture on the left shows the action space, which consists of five actions: North, South, East, West, and Stop.
 
 **Q learning** is a type of reinforcement learning algorithm. It calculates the "quantity" of a state-action combination. Each time the agent selects an action it observes a reward and enters a new state. **The Q-value is updated based on the new information. The next action is selected to maximize the Q value so that the agent gets as much reward (both immediate and cumulative) as possible.**
 
