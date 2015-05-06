@@ -11,10 +11,11 @@ categories: jekyll update
 
 For Pacman, the actions are simple: **North, South, East, West, or Stop**. The rewards are also simple: **food is +10, ghosts are -500 or +200, depending, and a win is +500**. The states, however, get tricky. On a large board, Pacman is essentially operating in a continuous state space. We abstracted states to mean linear combinations of features instead of Pacman’s coordinates on the board.
 
-IMAGE COMES HERE
+![PacMan Action Options]({{ site.url }}/assets/PacmanOptions_website.png)
 
 The picture above shows the action space, which consists of five actions: North, South, East, West, and Stop.
 
 **Q learning** is a type of reinforcement learning algorithm. It calculates the quantity of a state-action combination. Each time the agent selects an action it observes a reward and enters a new state. **The Q-value is updated based on the new information. Next action is selected based on the Q value so that the agent gets as much reward as possible.**
 
-FORMULA IMAGE COMES HERE
+![Q Value Calculation]({{ site.url }}/assets/Q_LearningAlgorithm.png)
+

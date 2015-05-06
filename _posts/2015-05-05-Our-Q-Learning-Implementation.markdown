@@ -7,12 +7,11 @@ categories: jekyll update
 
 On a large board, PacMan esentially operates in a continuous state space. In such a space, implementing Q values in a matrix is not viable. To address this, we have abstracted states to linear combinations of features instead of PacMan's coordinates on the board.
 
-Q FUNCTION APPROXIMATION IMAGE
-Q VALUE UPDATING IMAGE
+![Q Function Approximation]({{ site.url }}/assets/QFunctionApproximation2.png)
 
 Learning happens when agent updates the weights of the features based on its experience and learns which feature to prioritize. This makes the approximated Q value converge to the real Q value.
 
-WEIGHT UPDATING IMAGE
+![Weight Update Function]({{ site.url }}/assets/WeightUpdates.png)
 
 The features we have included are: 
 - Nearest capsule distance
@@ -23,6 +22,7 @@ The features we have included are:
 
 Our code architecture is explained in the diagram below. The classes we have implemented are "Features", whis is the super class of all the features used in Q value approximation and SimpleQAgent, which is the learning agent. The other classes create the game environment. 
 
-CODE ARCHITECTURE IMAGE 
+![Code Architecture]({{ site.url }}/assets/UMLDigram_Pacman_withoutAttributesMethods.png)
 
 For further information on Q learning in continuous spaces, you can download and check Hado van Hasselt's paper on [Reinforcement Learning in Continuous State and Action Spaces](http://webdocs.cs.ualberta.ca/~vanhasse/papers/RL_in_Continuous_Spaces.pdf) 
+
