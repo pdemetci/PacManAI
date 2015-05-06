@@ -16,7 +16,7 @@ For the game itself, we used the code provided in [UC Berkeley's CS188 Intro to 
 
 #User Instructions/README:
 
-{% highlight %}
+{% highlight ruby %}
 $ git clone https://github.com/pdemetci/PacMan-AI.git
 $ cd PacMan-AI/PacMan1
 $ ~/PacMan-AI/PacMan1/python pacman.py --pacman SimpleQPacMan
@@ -25,7 +25,7 @@ $ ~/PacMan-AI/PacMan1/python pacman.py --pacman SimpleQPacMan
 	
 you can also run 
 
-{% highlight %}
+{% highlight ruby %}
 	$ python pacman.py --help
 	
 {% endhighlight %}
