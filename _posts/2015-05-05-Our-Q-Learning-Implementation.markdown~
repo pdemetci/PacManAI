@@ -14,4 +14,5 @@ Learning happens when agent updates the weights of the features
 
 WEIGHT UPDATING IMAGE
 
-For further information on Q learning in continuous spaces, you can download and check Hado van Hasselt's paper on [Reinforcement Learning in Continuous State and Action Spaces](http://webdocs.cs.ualberta.ca/~vanhasse/papers/RL_in_Continuous_Spaces.pdf) 
+For further information on Q learning in continuous spaces, you can download and check Hado van Hasselt's paper on [Reinforcement Learning in
+Continuous State and Action Spaces](http://webdocs.cs.ualberta.ca/~vanhasse/papers/RL_in_Continuous_Spaces.pdf) 
