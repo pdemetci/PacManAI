@@ -16,7 +16,7 @@ For the game itself, we used the code provided in [UC Berkeley's CS188 Intro to 
 
 #User Instructions/README:
 
-{% highlight %}
+{% highlight ruby %}
 $ git clone https://github.com/pdemetci/PacMan-AI.git
 $ cd PacMan-AI/PacMan1
 $ ~/PacMan-AI/PacMan1/python pacman.py --pacman SimpleQPacMan
@@ -25,18 +25,18 @@ $ ~/PacMan-AI/PacMan1/python pacman.py --pacman SimpleQPacMan
 	
 you can also run 
 
-{% highlight %}
+{% highlight ruby %}
 	$ python pacman.py --help
 	
 {% endhighlight %}
-
 	
+to see more options.
 
-to see more options. 
+Download [our poster here]() directly. 
 
 Visit our posts for more information:
 
-- [What is Q-learning?](http://pdemetci.github.io/PacManAI/jekyll/update/What-Is-Q-Learning/)
+- [What is Q-learning?](http://pdemetci.github.io/PacManAI/jekyll/update/What-Is-Reinforcement-Learning/)
 - [Our implementation of Q-learning](http://pdemetci.github.io/PacManAI/jekyll/update/Our-Q-Learning-Implementation/)
 - [Results](http://pdemetci.github.io/PacManAI/jekyll/update/Results/)
 

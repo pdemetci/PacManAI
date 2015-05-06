@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Design Process"
+date:   2015-05-05 05:00:00
+categories: jekyll update
+---
+
+- Abstracted the problem and developed project goals
+- Decided on a type of algorithm to apply. Based on Paul’s suggestion and on research we did, we decided on reinforcement learning. (Because we wanted it to learn as it went? I don’t remember why.)
+- Learned about reinforcement learning. We narrowed down to Q-learning because it seemed to be the most common type of reinforcement learning. We started off with the simplified version on the “Painless Q-Learning Tutorial” site.
+- We tried to apply what we had learned from that tutorial to Pacman, but realized that with any normal layout we would have a pretty absurd number of states to keep track of. So we tried to think of ways to make fewer states. [List of those]
+- We took our ideas to our first design review, where Paul encouraged us to look at states as linear combinations of features. That way, we could replace the gigantic Q matrix with a Q function, and the weights associated with the features would guide the action selection policy.
+- We built a simple agent class to test out the concept of exploration rate. It wasn’t very effective.
+- We read “Reinforcement Learning in Continuous State and Action Spaces,” and spent a long time trying to understand the math.
+- We implemented the math to the best of our abilities in a new agent class, SimpleQPacman.
+- Along the way, we decided to add a Feature class to allow easy testing of which features were helpful and which ones were not.
+- Many of our features used a distance, which was calculated as a Manhattan distance. This did not take walls into account, and often left our Pacman stuck. To fix this, we decided to implement a distance finder based on the A-star search algorithm.
+- We experimented with different features, including the nearest capsule, the nearest ghost, the nearest food pellet, the total food pellets remaining, the nearest scared ghost, the score, and the capsules remaining. The ones we found to be most effective based on watching games were the distance-based ones.
+- The A-star distance finding algorithm was taking a long time when it came to food, so we implemented a depth-first search algorithm to first find a food pellet and then only perform A-star once per feature extraction.
+- We tweaked our learning rate, exploration rate, and discount factors.
+
