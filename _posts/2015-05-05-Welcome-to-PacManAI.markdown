@@ -56,3 +56,16 @@ Just testing image:
 	<a href="http://postimg.org/image/pxjf056a3/"><img src="http://postimg.org/image/pxjf056a3/" alt=""></a>
 	<figcaption><a href="http://postimg.org/image/pxjf056a3/" title="PacMan3!">PacMan3!</a>.</figcaption>
 </figure>
+
+Another image:
+<figure>
+	<a href="/assets/images/pacman.png/"><img src="/assets/images/pacman.png/" alt=""></a>
+	<figcaption><a href="/assets/images/pacman.png/" title="PacMan3!">PacMan3!</a>.</figcaption>
+</figure>
+
+
+Another image:
+<figure>
+	<a href="/assets/images/pacman.png"><img src="/assets/images/pacman.png" alt=""></a>
+	<figcaption><a href="/assets/images/pacman.png" title="PacMan3!">PacMan3!</a>.</figcaption>
+</figure>
