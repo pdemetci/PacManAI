@@ -6,12 +6,24 @@ categories: jekyll update
 ---
 
 
-We are Stephanie Northway, Kelly Brennan and Pinar Demetci. This is our course project for Software Design course at Olin College of Engineering.
-We have used machine learning for the computer to strategize and learn to win the PacMan game. 
+We are Stephanie Northway, Kelly Brennan and Pinar Demetci from Olin College of Engineering. 
+
+We created an artificial intelligence agent that learns from experience to play (and win!) games of PacMan. The type of machine learning algorithm we used is Q-learning.
 
 Our learning goals were mostly related to learning machine learning and artificial intelligence algorithms. Therefore, we decided to focus on implementing algorithms instead of creating the game environment. 
 
 For the game itself, we used the code provided in [UC Berkeley's CS188 Intro to AI code](http://ai.berkeley.edu/project_instructions.html)
+
+#User Instructions/README:
+	$ git clone https://github.com/pdemetci/PacMan-AI.git
+$ cd PacMan-AI/PacMan1
+$ ~/PacMan-AI/PacMan1/python pacman.py --pacman SimpleQPacMan
+
+you can also run 
+	
+	$ python pacman.py --help
+
+to see more options. 
 
 Visit our posts for more information:
 
