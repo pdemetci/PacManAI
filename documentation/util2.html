@@ -1,0 +1,112 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module util2</title>
+<meta charset="utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>util2</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/snorthway/semester-8/softdes/PacMan-AI/PacMan1/util2.py">/home/snorthway/semester-8/softdes/PacMan-AI/PacMan1/util2.py</a></font></td></tr></table>
+    <p><tt>@author:&nbsp;Kelly&nbsp;Brennan,&nbsp;Stephanie&nbsp;Norway&nbsp;and&nbsp;Pinar&nbsp;Demetci<br>
+Our&nbsp;own&nbsp;utility&nbsp;functions&nbsp;and&nbsp;classes.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="__builtin__.html#object">__builtin__.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="util2.html#Tile">Tile</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Tile">class <strong>Tile</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Represents&nbsp;a&nbsp;position&nbsp;on&nbsp;the&nbsp;board&nbsp;in&nbsp;terms&nbsp;of&nbsp;what&nbsp;it&nbsp;will&nbsp;cost&nbsp;Pacman&nbsp;to&nbsp;get&nbsp;there.<br>
+For&nbsp;example&nbsp;layout,&nbsp;food&nbsp;is&nbsp;in&nbsp;[(18,&nbsp;1),&nbsp;(1,9)].&nbsp;Bottom&nbsp;left-hand&nbsp;corner&nbsp;=&nbsp;(1,1).<br>
+&nbsp;<br>
+coordinates:&nbsp;the&nbsp;coordinates&nbsp;of&nbsp;this&nbsp;tile<br>
+g_cost:&nbsp;total&nbsp;cost&nbsp;of&nbsp;moving&nbsp;the&nbsp;agent&nbsp;from&nbsp;a&nbsp;start&nbsp;position&nbsp;to&nbsp;a&nbsp;given&nbsp;square<br>
+h_cost:&nbsp;number&nbsp;of&nbsp;total&nbsp;moves&nbsp;(as&nbsp;the&nbsp;crow&nbsp;flies)&nbsp;to&nbsp;goal<br>
+f_cost:&nbsp;the&nbsp;score&nbsp;for&nbsp;this&nbsp;<a href="#Tile">Tile</a><br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Tile-__init__"><strong>__init__</strong></a>(self, coordinates, g_cost<font color="#909090">=None</font>, h_cost<font color="#909090">=None</font>, f_cost<font color="#909090">=None</font>)</dt></dl>
+
+<dl><dt><a name="Tile-__repr__"><strong>__repr__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Tile-__str__"><strong>__str__</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-Astar"><strong>Astar</strong></a>(state, start, goal, layout, costs)</dt><dd><tt>Astar&nbsp;function&nbsp;that&nbsp;runs&nbsp;the&nbsp;show<br>
+Determines&nbsp;the&nbsp;distance&nbsp;between&nbsp;a&nbsp;position&nbsp;and&nbsp;a&nbsp;goal&nbsp;with&nbsp;obstacles,&nbsp;such&nbsp;as&nbsp;walls&nbsp;present<br>
+&nbsp;<br>
+start:&nbsp;initial&nbsp;position&nbsp;of&nbsp;search&nbsp;(tuple)<br>
+goal:&nbsp;end&nbsp;position&nbsp;of&nbsp;search&nbsp;(tuple)<br>
+layout:&nbsp;Layout&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;game<br>
+costs:&nbsp;dictionary&nbsp;of&nbsp;tile&nbsp;objects&nbsp;that&nbsp;can&nbsp;be&nbsp;accessed&nbsp;with&nbsp;coordinate&nbsp;keys<br>
+returns:&nbsp;distance&nbsp;between&nbsp;start&nbsp;and&nbsp;goal,&nbsp;if&nbsp;goal&nbsp;exists<br>
+&nbsp;&nbsp;&nbsp;&nbsp;manhattanDistance&nbsp;of&nbsp;the&nbsp;layout&nbsp;board,&nbsp;if&nbsp;goal&nbsp;does&nbsp;not&nbsp;exist</tt></dd></dl>
+ <dl><dt><a name="-DepthFirstSearch"><strong>DepthFirstSearch</strong></a>(state, start, costs, closed_list<font color="#909090">=[]</font>)</dt><dd><tt>Depth-first&nbsp;search&nbsp;algorithm&nbsp;to&nbsp;find&nbsp;close&nbsp;food&nbsp;pellets&nbsp;with&nbsp;greater&nbsp;computational&nbsp;efficiency&nbsp;than&nbsp;running<br>
+Astar&nbsp;on&nbsp;every&nbsp;position&nbsp;with&nbsp;food.<br>
+Recursive&nbsp;function,&nbsp;until&nbsp;it&nbsp;finds&nbsp;a&nbsp;food&nbsp;pellet<br>
+First,&nbsp;finds&nbsp;a&nbsp;list&nbsp;of&nbsp;open&nbsp;adjacent&nbsp;coordinates.&nbsp;If&nbsp;food&nbsp;at&nbsp;coordinate,&nbsp;return&nbsp;distance&nbsp;from&nbsp;Pacman<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Otherwise,&nbsp;run&nbsp;function&nbsp;with&nbsp;new&nbsp;coordinate&nbsp;input<br>
+&nbsp;<br>
+state:&nbsp;the&nbsp;GameState&nbsp;<a href="__builtin__.html#object">object</a><br>
+start:&nbsp;(x,&nbsp;y)&nbsp;coordinates&nbsp;from&nbsp;which&nbsp;to&nbsp;start&nbsp;the&nbsp;search<br>
+costs:&nbsp;{(x,&nbsp;y):&nbsp;<a href="#Tile">Tile</a>((x,&nbsp;y))}<br>
+closed_list:&nbsp;list&nbsp;of&nbsp;coordinates&nbsp;no&nbsp;longer&nbsp;being&nbsp;considered<br>
+returns:&nbsp;Astar&nbsp;distance&nbsp;to&nbsp;the&nbsp;closest&nbsp;food&nbsp;pellet</tt></dd></dl>
+ <dl><dt><a name="-get_h_cost"><strong>get_h_cost</strong></a>(coord_a, coord_b)</dt><dd><tt>Calculate&nbsp;h_cost&nbsp;of&nbsp;given&nbsp;position&nbsp;and&nbsp;goal<br>
+&nbsp;<br>
+coord_a:&nbsp;starting&nbsp;coordinate<br>
+coord_b:&nbsp;goal&nbsp;coordinate<br>
+Returns:&nbsp;the&nbsp;h&nbsp;score,&nbsp;the&nbsp;manhattan&nbsp;distance&nbsp;between&nbsp;coord_a&nbsp;and&nbsp;the&nbsp;cood_b</tt></dd></dl>
+ <dl><dt><a name="-get_lowest_cost_open_coord"><strong>get_lowest_cost_open_coord</strong></a>(open_list)</dt><dd><tt>Find&nbsp;the&nbsp;tile&nbsp;with&nbsp;the&nbsp;lowest&nbsp;cost.<br>
+&nbsp;<br>
+open_list:&nbsp;list&nbsp;of&nbsp;<a href="#Tile">Tile</a>&nbsp;objects&nbsp;to&nbsp;sort<br>
+returns:&nbsp;open_list&nbsp;sorted&nbsp;by&nbsp;f_cost</tt></dd></dl>
+ <dl><dt><a name="-get_open_adj_coords"><strong>get_open_adj_coords</strong></a>(state, coords, layout)</dt><dd><tt>Finds&nbsp;the&nbsp;coordinates&nbsp;of&nbsp;the&nbsp;up&nbsp;to&nbsp;four&nbsp;open&nbsp;adjacent&nbsp;positions&nbsp;to&nbsp;coords.<br>
+&nbsp;<br>
+coords:&nbsp;the&nbsp;center&nbsp;coordinate&nbsp;pair<br>
+layout:&nbsp;the&nbsp;Layout&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;the&nbsp;game<br>
+returns:&nbsp;(list&nbsp;of&nbsp;open&nbsp;adjacent&nbsp;coordinates,&nbsp;ones(same&nbsp;length))</tt></dd></dl>
+ <dl><dt><a name="-get_open_adj_coords_DFS"><strong>get_open_adj_coords_DFS</strong></a>(state, coords, layout)</dt><dd><tt>Get&nbsp;open&nbsp;adjacent&nbsp;coordinates&nbsp;for&nbsp;the&nbsp;DepthFirstSearch&nbsp;function.<br>
+&nbsp;<br>
+coords:&nbsp;the&nbsp;center&nbsp;coordinate&nbsp;pair<br>
+layout:&nbsp;the&nbsp;Layout&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;the&nbsp;game<br>
+returns:&nbsp;list&nbsp;of&nbsp;open&nbsp;adjacent&nbsp;coordinate&nbsp;pairs</tt></dd></dl>
+ <dl><dt><a name="-initializeTiles"><strong>initializeTiles</strong></a>(layout)</dt><dd><tt>Initializes&nbsp;the&nbsp;open&nbsp;positions&nbsp;on&nbsp;the&nbsp;board&nbsp;as&nbsp;<a href="#Tile">Tile</a>&nbsp;objects.&nbsp;This<br>
+gets&nbsp;called&nbsp;once&nbsp;at&nbsp;the&nbsp;beginning&nbsp;of&nbsp;a&nbsp;game.<br>
+&nbsp;<br>
+layout:&nbsp;the&nbsp;Layout&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;the&nbsp;game<br>
+returns:&nbsp;a&nbsp;dictionary&nbsp;like&nbsp;{(x,&nbsp;y):&nbsp;<a href="#Tile">Tile</a>((x,&nbsp;y))}</tt></dd></dl>
+</td></tr></table>
+</body></html>
