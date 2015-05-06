@@ -25,7 +25,7 @@ The picture on the left shows the action space, which consists of five actions: 
 
 The example below is from [UC Berkeley's CS188 course](https://inst.eecs.berkeley.edu/~cs188/fa09/projects/reinforcement/reinforcement.html) It demonstrates an environment where reaching the green tile would bring a big reward and the tile below that would end the game. The Q value matrix starts with 0s. The image below demonstrates the Q values after the first episode, where the agent started at the top left hand-side corner and constantly moved left until it reached its goal. The Q values for the state-action pairs it took are updated in this image. Notice that the state-action pairs that lead to the reward have positive Q values and they increase as the state-action pair gets closer to the reward tile. This is because the Q learning algorithm takes into account the future expected reward. The image below reflects the Q values after multiple episodes, throughout which agent gets to explore every state-action pair.
 
-![Initial Q values]({{ site.url }}/assets/Qvalues_initial.png)
+![Initial Q values]({{ site.url }}/assets/QValues_initial.png)
 
 Notice that the Q value assigned to the 'death tile' which ends the game is the lowest value and the state-action pairs that lead to this tile also have negative Q values. Learning agent takes actions based on these updated Q values in order to maximize the reward it gets.
 
