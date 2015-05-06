@@ -11,7 +11,7 @@ categories: jekyll update
 
 There is also a tradeoff between "exploration and exploitation" in reinforcement learning. Exploration (generally implemented as random action selection) is necessary because if the agent only interacts with part of its environment it will optimize for that part and not be suited to deal with the rest. The video below shows a test agent we made based only on this concept.
 
-EXPLORATION VIDEO
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eg_0URXVBGM" frameborder="0" allowfullscreen> </iframe>
 
 For Pacman, the actions are simple: **North, South, East, West, or Stop**. The rewards are also simple: **food is +10, ghosts are -500 or +200, depending, and a win is +500**. The states, however, get tricky. On a large board, Pacman is essentially operating in a continuous state space (actually it's just a very large discrete state space, but for practical purposes they're the same thing). We abstracted states to mean linear combinations of hand-picked features (like the current distance to the nearest ghost or food pellet) instead of Pacman’s coordinates on the board.
 
@@ -27,6 +27,7 @@ The picture on the left shows the action space, which consists of five actions: 
 The example below is from [UC Berkeley's CS188 course](https://inst.eecs.berkeley.edu/~cs188/fa09/projects/reinforcement/reinforcement.html) It demonstrates an environment where reaching the green tile would bring a big reward and the 
 
 ![Initial Q values]({{ site.url }}/assets/Qvalues_final.png)
+
 The first image has the initial Q matrix whereas the second Q matrix is the updated one as the agent learns about the environment. Note that the closer the state is to the reward, the higher its Q value is since Q value takes into account the expected future reward. 
 
 ![Final Q values]({{ site.url }}/assets/Qvalues_initial.png)
