@@ -8,7 +8,7 @@ categories: jekyll update
 
 We are Stephanie Northway, Kelly Brennan and Pinar Demetci from Olin College of Engineering. 
 
-We created an artificial intelligence agent that learns from experience to play (and win!) games of PacMan. The type of machine learning algorithm we used is Q-learning.
+We created an artificial intelligence agent that learns from experience to play (and win!) games of PacMan. The type of machine learning algorithm we used is reinforcement learning, more specifically: Q learning.
 
 Our learning goals were mostly related to learning machine learning and artificial intelligence algorithms. Therefore, we decided to focus on implementing algorithms instead of creating the game environment. 
 
