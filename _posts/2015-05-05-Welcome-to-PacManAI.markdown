@@ -15,13 +15,21 @@ Our learning goals were mostly related to learning machine learning and artifici
 For the game itself, we used the code provided in [UC Berkeley's CS188 Intro to AI code](http://ai.berkeley.edu/project_instructions.html)
 
 #User Instructions/README:
-	$ git clone https://github.com/pdemetci/PacMan-AI.git
-	$ cd PacMan-AI/PacMan1
-	$ ~/PacMan-AI/PacMan1/python pacman.py --pacman SimpleQPacMan
 
-you can also run 
+{% highlight ruby %}
+$ git clone https://github.com/pdemetci/PacMan-AI.git
+$ cd PacMan-AI/PacMan1
+$ ~/PacMan-AI/PacMan1/python pacman.py --pacman SimpleQPacMan
+
+{% endhighlight %}
 	
+you can also run 
+
+{% highlight ruby %}
 	$ python pacman.py --help
+	
+{% endhighlight %}
+
 	
 
 to see more options. 

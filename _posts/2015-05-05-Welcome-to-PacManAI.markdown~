@@ -22,6 +22,7 @@ For the game itself, we used the code provided in [UC Berkeley's CS188 Intro to 
 you can also run 
 	
 	$ python pacman.py --help
+	
 
 to see more options. 
 
