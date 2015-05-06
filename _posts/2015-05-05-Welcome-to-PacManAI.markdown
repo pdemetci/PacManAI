@@ -54,7 +54,9 @@ Course Deliverables:
 Just testing image
 
 Updated:
-![PacMan2](/assets/pacman.jpg)
+
+
+![PacMan3](/assets/pacman.jpg)
 
 <figure>
 	<img src="http://postimg.org/image/pxjf056a3/">
